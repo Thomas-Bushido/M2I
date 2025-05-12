@@ -2,20 +2,23 @@ package org.example;
 
 public class Exercice53 {
     public static void main(String[] args) {
-        /*
-        Exercice : majeur ou mineur
-1. Créer une variable age et lui affecter une valeur
-2. Vérifier si la personne est mineure ou majeure à l'aide des opérateurs logiques
-3. Afficher le résultat
-4. /!\ Ne pas utiliser de structure conditionnelle Saisir un age : 17 false
-Saisir un age : 25 true
-         */
-        int age = 15;
-        if(age>18){
-            System.out.println("Majeur");
-        } else {
-            System.out.println("Mineur");
-        }
+            /*
+    Exercice : Somme des carrés
+1. Écrire un programme avec les variables suivantes : a, b
+2. Afficher la somme des carrés de ces deux nombres
+Saisir a :2
+saisir b :3
+La somme des carrés de a et b est : 13
+*/
+        int a, b;
+        a = 2;
+        b = 3;
+
+        int carre = (a*a) + (b*b);
+        System.out.println("La somme des carrés de a et b est :" + carre);
+
 
     }
+
+
 }
